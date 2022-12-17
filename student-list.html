@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student management</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200;1,300&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<div class="panel">
+    <div class="student-information">
+        <p> Input Student Infomation </p>
+    </div>
+    <div class="panel-body">
+        <form method="post">
+            <div class="form-group">
+                <label>Student name</label>
+                <input id='name' type="text" class="bar-control" placeholder="Enter an Student name">
+            </div>
+            <div class="form-group">
+                <label>Age</label>
+                <input id="age" type="text" class="bar-control" placeholder="Enter an Age">
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <select class="bar-control" id="gender">
+                    <option value="">--choose--</option>
+                    <option value="Male">Male</option>
+                    <option value="FeMale">FeMale</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Class</label>
+                <select id="cl" class="bar-control">
+                    <option value="">--choose class--</option>
+                    <option value="C0822H1">C0822H1</option>
+                    <option value="C0722I1">C0722I1</option>
+                    <option value="C0622G1">C0622G1</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Mark</label>
+                <input id='mark' type="text" class="bar-control" placeholder="Enter a Mark">
+            </div>
+            <div class="form-group">
+                <button type='button' class="btn" id="add">ADD</button>
+                <button class="btn" type="reset">RESET</button>
+                <button class="btn" type="button" onclick="save()">SAVE</button>
+                <button class="list" type="button" onclick="reShowList()">STUDENT LIST</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="panel">
+    <div class="student-list">
+        <p>Student List</p>
+    </div>
+    <div>
+        <table class="table">
+            <tr>
+                <th>STT</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Class</th>
+                <th>Mark</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            <tbody id="result"></tbody>
+        </table>
+    </div>
+</div>
+<script src="student.js"></script>
+<script src="my.js"></script>
+</body>
+</html>

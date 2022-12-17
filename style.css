@@ -1,0 +1,64 @@
+.panel {
+    border : 1px solid red;
+    width : 60%;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: "poppins" , sans-serif;
+}
+.student-information {
+    background-color: #e85b12;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+.panel-body {
+    padding:10px;
+}
+.panel-body label {
+    font-weight: bold;
+}
+.form-group {
+    display: block;
+    margin-bottom: 10px;
+}
+.bar-control {
+    display: block;
+    width: 98%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.btn {
+    background-color: #3fbe15;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 10%;
+}
+.table,td,tr,th {
+    border-collapse: collapse;
+    border: 1px solid blue;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+.student-list {
+    background-color: #e85b12;
+    font-size: 25px;
+    padding: 2px;
+    color: white;
+}
+.n {
+    text-align: left;
+}
+.list {
+    background-color: #3fbe15;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 13%;
+}
